@@ -34,6 +34,13 @@ export default function Navbar(props) {
             
          </ul>
 
+         <div className = "social-media">
+            
+             
+         
+         </div>
+
+
          
         
       </div>

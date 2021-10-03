@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #DAE2F8;  /* fallback for old browsers */
+  
+  background: rgb(245,245,245);
+background: linear-gradient(126deg, rgba(245,245,245,1) 9%, rgba(216,185,233,1) 76%);
   
   
 }
@@ -72,20 +74,27 @@ li:hover {
 #cards_landscape_wrap-2 .card-flyer:hover .play{
   display: block;
   position: absolute;
-  top: 44%;
-  left: 50%;
+  top: 43%;
+  left: 51%;
   bottom: 50%;
-  right: 44%;
+  right: 50%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  display : flex;
+  display:flex;
   justify-content: center;
   align-items: center;
-  font-size: 6rem;
+
+  
+  font-size: 4rem;
   color: white;
 }
+
+#audioplayer{
+  display: none;
+}
+
 
 
